@@ -55,4 +55,4 @@ sed -i '2i\        <dllmap dll="dl" target="libdl.so.2"/> ' /home/steamusr/Valhe
 #This led to finding this issue:
 #https://github.com/BepInEx/BepInEx/issues/162
 
-#Which led to the solution f
+#Which led to the solution of adding the dllmap to the mono config.
