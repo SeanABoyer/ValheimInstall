@@ -36,10 +36,6 @@ cp -r !(UnixServer.zip) /home/steamusr/Valheim
 sed -i '2i\        <dllmap dll="dl" target="libdl.so.2"/> ' /home/steamusr/Valheim/valheim_server_Data/MonoBleedingEdge/etc/mono/config
 
 
-
-
-
-
 #Enable Logging.Console in BepInEx/config/BepInEx.cfg file
 #This threw a preloader error (new file in the /home/steamusr/Valheim directory):
 #System.TypeInitializationException: The type initializer for 'BepInEx.Unix.UnixStreamHelper' threw an exception. ---> System.TypeInitializationException: The type initializer for 'MonoMod.Utils.DynDll' threw an exception. ---> System.DllNotFoundException: dl
